@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "first-pwa-3ee0b",
+    "dev": "first-pwa-3ee0b",
+    "staging": "first-pwa-3ee0b",
+    "stage": "first-pwa-3ee0b"
+  }
+}
