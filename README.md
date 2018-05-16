@@ -1,3 +1,7 @@
+Fllow by this link : https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
+Deploy with firebase : https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
