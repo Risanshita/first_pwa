@@ -1,4 +1,20 @@
-Fllow by this link : https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
+Create new react app
+npx create-react-app my-app
+
+Move to app
+cd my-app
+
+run app
+npm start
+
+build app for production 
+npm run build
+
+Fllow by this link : 
+React app
+https://github.com/facebook/create-react-app
+
+https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
 Deploy with firebase : https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase
 
 

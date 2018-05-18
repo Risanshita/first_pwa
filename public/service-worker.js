@@ -1,24 +1,23 @@
 // Set this to true for production
 var doCache = false;
 
-// Name our cache
+// Name of our cache 
 var CACHE_NAME = 'first-pwa-cache-v1';
 
-// Delete old caches that are not our current one!
+//Delete old caches that are not our current one!
+
 self.addEventListener("activate", event => {
-  const cacheWhitelist = [CACHE_NAME];
+  const cacheWhitelist= [CACHE_NAME];
   event.waitUntil(
     caches.keys()
-      .then(keyList =>
-        Promise.all(keyList.map(key => {
-          if (!cacheWhitelist.includes(key)) {
-            console.log('Deleting cache: ' + key)
-            return caches.delete(key);
-          }
-        }))
-      )
+    .then(keyList => Promise.all(keyList.map(key => {
+      console.log('Deleting cache: ' + key);
+      return caches.delete(key);
+    })))
   );
 });
+
+
 
 // The first time the user starts up the PWA, 'install' is triggered.
 self.addEventListener('install', function(event) {
